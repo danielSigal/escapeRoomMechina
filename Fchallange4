@@ -1,0 +1,27 @@
+ <center>
+      <h1> היור שומע מוזיקה בכל יום בסדר מסויים, אולי זה אומר משהו  </h1>
+      <h1> השירים מגיעים בכל הסגנונות, מהמזרחית של ניסו, ועד אפילו שירי פסטיגל </h1>
+    </br>
+      <h1> בברעם שומעים מוזיקה בכל מצב- בזולה, בנקיונות וכמובן שבמדסים </h1>
+    </br>
+    <h1> ואיך אפשר להרדם בלי שיר שינה בחדר 5? השירים הכי רגועים על הכלים הכי יפים </h1>
+    </br>
+    <h1> ואסור לשכוח את השירים של תרבו ביום האהבה, מקוריים ורומנטיים כולם </h1>
+    </center>
+    <center><input type="text" id="password4" name="הכנס סיסמא"></center>
+<center><input type="submit" onclick="submitpassword();"></center>
+<a href = Fchallange5.html style="display: none;" id = "nextpagelink4">
+    <center> <button type="button">המשך הלאה</button> </center> 
+     </a>
+ <script>
+    var submitpassword = function(){
+        var password = document.querySelector("#password4").value;
+        var index4=156273918543;
+    if (password==index4){
+        document.querySelector("#nextpagelink4").style.display= "block";
+    }
+    else {
+        alert("סיסמא שגויה, נסו שוב")
+    }  
+    };
+    </script>
