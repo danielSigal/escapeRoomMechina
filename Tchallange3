@@ -1,0 +1,29 @@
+<center>
+    <h1>היו"ר השמיע לנו את הרעשים האלה בכנס האחרון</h1>
+    <h1> ואמר שמי שיבין מה זה אומר רק צריך לממש את הפוטנציאל שלו </h1>
+    <h1> ע   ש   מ </h1>
+    <h1> אומר לכם משהו? </h1>
+    <audio controls>
+        <source src="morse.m4a">
+    </audio>
+</center>
+</br>
+</br>
+</br>
+<center><input type="text" id="password3" name="הכנס סיסמא"></center>
+<center><input type="submit" onclick="submitpassword();"></center>
+<a href = Fchallange4.html style="display: none;" id = "nextpagelink3">
+    <center> <button type="button">המשך הלאה</button> </center> 
+     </a>
+ <script>
+    var submitpassword = function(){
+        var password = document.querySelector("#password3").value;
+        var index3='humanity';
+    if (password==index3){
+        document.querySelector("#nextpagelink3").style.display= "block";
+    }
+    else {
+        alert("סיסמא שגויה, נסו שוב")
+    }  
+    };
+    </script>
