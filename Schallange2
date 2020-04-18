@@ -1,0 +1,22 @@
+<center>  <head>
+        <h1> כתב הסתרים </h1>
+    </head> </center>
+    <center> <img src = "challange2.jpg"> </center>
+    
+        <center><input type="text" id="password2" name="הכנס סיסמא"></center>
+<center><input type="submit" onclick="submitpassword();"></center>
+<a href = Tchallange3.html style="display: none;" id = "nextpagelink2">
+    <center> <button type="button">המשך הלאה</button> </center> 
+     </a>
+ <script>
+    var submitpassword = function(){
+        var password = document.querySelector("#password2").value;
+        var index2=38762145;
+    if (password==index2){
+        document.querySelector("#nextpagelink2").style.display= "block";
+    }
+    else {
+        alert("סיסמא שגויה, נסו שוב")
+    }  
+    };
+    </script>
