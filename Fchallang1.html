@@ -1,0 +1,21 @@
+<center><img src="email.jpg" style="width:700px;height:800px;"></center>
+<center> <h2> הכנס סיסמא </h2> </center>
+<center><input type="text" id="password" name="הכנס סיסמא"></center>
+<center><input type="submit" onclick="submitpassword();"></center>
+<a href = Schallange2.html style="display: none;" id = "nextpagelink">
+    <center> <button type="button">המשך הלאה</button> </center> 
+     </a>
+<script>
+    var submitpassword = function(){
+        var password = document.querySelector("#password").value;
+        var index=1918;
+    if (password==index){
+        document.querySelector("#nextpagelink").style.display= "block";
+    }
+    else {
+        alert("סיסמא שגויה, נסו שוב")
+    }  
+    };
+    
+    
+</script>
