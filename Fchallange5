@@ -1,0 +1,26 @@
+<center>
+<h1> לצערי פה אצטרך לעזוב אותכם, היור לאחרונה התחיל לחשוד בי... </h1>
+<h1> השארתי לכם רמז אחרון ברשת החברתית, הסיסמא היא המקום אליו עליכם להגיע, אין לכם עוד הרבה זמן </h1>
+</center>
+</br>
+<center>
+    <h1> הספקתי להשאיר לכם את התמונה הזאת, תיעזרו בה. בהצלחה </h1>
+    <img src = "Safari copy.png" height="600" width="750">
+</center>
+    <center><input type="text" id="password5" name="הכנס סיסמא"></center>
+    <center><input type="submit" onclick="submitpassword();"></center>
+    <a href = Schallange6.html style="display: none;" id = "nextpagelink5">
+        <center> <button type="button">המשך הלאה</button> </center> 
+         </a>
+     <script>
+        var submitpassword = function(){
+            var password = document.querySelector("#password5").value;
+            var index5='ברעם';
+        if (password==index5){
+            document.querySelector("#nextpagelink5").style.display= "block";
+        }
+        else {
+            alert("סיסמא שגויה, נסו שוב")
+        }  
+        };
+        </script>
